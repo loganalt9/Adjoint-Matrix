@@ -59,13 +59,3 @@ class Matrix:
     def adjoint(self) -> list:
         m = self.find_transpose(self.find_cofactors())
         return m
-
-
-
-m = Matrix([[2,4,55],[3,-54,54],[53,97,6]])
-
-n = m.adjoint()
-
-print(n[0])
-print(n[1])
-print(n[2])
